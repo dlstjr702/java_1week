@@ -37,16 +37,18 @@ cls = 프롬프트 초기화
 cd  =  디렉토리 변경
 chcp = 현재cmd 문자 인코딩
 /*
-컴파일 작업후 클래스 파일 생성 
+/*컴파일 작업후 클래스 파일 생성 */
 C:\Class\JavaClass>javac Sample.java <<컴파일후 클래스파일생성
 C:\Class\JavaClass>java Sample  <<뒤에 .java는 맞는표현이 아님
 Hello World(출력결과물)
 */
 
-이클립스 설치
+/*이클립스 설치*/
 https://www.eclipse.org/downloads/packages/
 <img width="910" height="680" alt="화면 캡처 2026-05-11 123706" src="https://github.com/user-attachments/assets/5b037171-65ea-4e74-9b8e-9fa492d966d1" />
+
 windows --- x86_64버전파일로 설치
+bin폴더는 컴파일된 파일(class파일) 저장소
 
 <img width="910" height="680" alt="화면 캡처 2026-05-11 123706" src="https://github.com/user-attachments/assets/d1a37bcd-1b84-431a-8f4e-17bf4045666f" />
 <img width="1450" height="750" alt="화면 캡처 2026-05-11 141825" src="https://github.com/user-attachments/assets/5c87b127-3b31-4b30-a33c-0c30aaa4a5bf" />
@@ -57,8 +59,24 @@ windows --- x86_64버전파일로 설치
 <img width="730" height="744" alt="화면 캡처 2026-05-11 142647" src="https://github.com/user-attachments/assets/936dced6-4f3f-45ef-bb33-7ab825dc9042" />
 <img width="1266" height="740" alt="화면 캡처 2026-05-11 143009" src="https://github.com/user-attachments/assets/fc318e37-443b-4290-b3e7-1c69f9ba609d" />
 
+/*이클립스 단축키*/
+ctrl+ space = 자동완성 명령어
+ctrl+ 방향키/아래or위 = 아래/위 한줄 복사
+ctrl+ / = 토글주석
+ctrl+ shift + / = 문장주석
+Ctrl + F11: 컴파일 실행
+trl + 7 or / : 토글 주석 처리 
+Alt + Shift + J: 주석 처리
 
-bin폴더는 컴파일된 파일(class파일) 저장소
+<img width="1218" height="754" alt="화면 캡처 2026-05-11 154129" src="https://github.com/user-attachments/assets/50ae266f-dc0f-4084-ab44-df4b62e509d1" />
+<img width="1069" height="749" alt="화면 캡처 2026-05-11 153711" src="https://github.com/user-attachments/assets/525eb158-ad7a-4561-8b63-24e0b2cadf07" />
+<img width="529" height="710" alt="화면 캡처 2026-05-11 154626" src="https://github.com/user-attachments/assets/5a5eb380-f91e-4f3c-9248-2ea81ee5f262" />
+<img width="1020" height="739" alt="화면 캡처 2026-05-11 154326" src="https://github.com/user-attachments/assets/92c51d03-4140-460b-b16b-e22cb1dd7540" />
+<img width="946" height="579" alt="화면 캡처 2026-05-11 154138" src="https://github.com/user-attachments/assets/50118e28-fe03-4769-b0b6-d34190b7c91f" />
+
+
+windows > show view = 닫힌창 열기
+
 
 
 --------------------------------------------
