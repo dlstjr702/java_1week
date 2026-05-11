@@ -46,7 +46,7 @@ Hello World(출력결과물)
 이클립스 설치
 https://www.eclipse.org/downloads/packages/
 <img width="910" height="680" alt="화면 캡처 2026-05-11 123706" src="https://github.com/user-attachments/assets/5b037171-65ea-4e74-9b8e-9fa492d966d1" />
-x86_64버전파일로 설치
+windows --- x86_64버전파일로 설치
 
 
 --------------------------------------------
