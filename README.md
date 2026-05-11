@@ -1,7 +1,3 @@
-<img width="1149" height="752" alt="화면 캡처 2026-05-11 162937" src="https://github.com/user-attachments/assets/e011bb06-4215-441c-a4e0-5eb35baa1525" />
-<img width="529" height="710" alt="화면 캡처 2026-05-11 154626" src="https://github.com/user-attachments/assets/e4eacf47-d0fb-495e-88be-c79be77b8595" />
-<img width="1020" height="739" alt="화면 캡처 2026-05-11 154326" src="https://github.com/user-attachments/assets/6a4a628c-205f-4616-a0b7-018e22320c3e" />
-
 # java_study
 쌍용교육센터
 이창익 선생님
@@ -76,9 +72,46 @@ Alt + Shift + J: 주석 처리
 <img width="529" height="710" alt="화면 캡처 2026-05-11 154626" src="https://github.com/user-attachments/assets/5a5eb380-f91e-4f3c-9248-2ea81ee5f262" />
 <img width="1020" height="739" alt="화면 캡처 2026-05-11 154326" src="https://github.com/user-attachments/assets/92c51d03-4140-460b-b16b-e22cb1dd7540" />
 <img width="946" height="579" alt="화면 캡처 2026-05-11 154138" src="https://github.com/user-attachments/assets/50118e28-fe03-4769-b0b6-d34190b7c91f" />
+<img width="1149" height="752" alt="화면 캡처 2026-05-11 162937" src="https://github.com/user-attachments/assets/e011bb06-4215-441c-a4e0-5eb35baa1525" />
+<img width="529" height="710" alt="화면 캡처 2026-05-11 154626" src="https://github.com/user-attachments/assets/e4eacf47-d0fb-495e-88be-c79be77b8595" />
+<img width="1020" height="739" alt="화면 캡처 2026-05-11 154326" src="https://github.com/user-attachments/assets/6a4a628c-205f-4616-a0b7-018e22320c3e" />
 
 
 windows > show view = 닫힌창 열기
+
+
+
+/*
+		 * 1. 자바는 객체 지향 프로그래밍 언어이기 때문에 반드시 프로그램의 시작을 하는 시작개체(==객체,클래스,물건)가 필요하다.
+		 * 2. 자바에서는 클래스 선언 형식
+		 * 		public = 접근지정자
+		 *      class  = 클래스 선언예약어/클래스 뒤에는 클래스명
+		 *      (클래스명은 자바파일명과 동일해야하면 클래스명은 대문자로 시작해야한다)
+		 *      main   = 메서드(함수)
+		 *      
+		 * 		public class Ex02{
+		 * 		}
+		 * 		접근지정장 클래스예약어 클래스명{}
+		 * 3.프로그램의 시작/종료(진입점)하는 기능의 함수(메서드)가 필요하다
+		 * 3-2.
+		 * java Sample 실행(터미널 실행)
+		 * Ctrl + F11  실행(이클립스 실행) > 시작개체(main)> main메서드
+		 * 4. 자바에서 메서드(함수) 선언 형식
+		 * [접근지정자]  [기타제어자]  리턴자료형 메서드명(매개변수){<<<평가 정답 
+		 *  []대괄호는 생략가능하다라는 말이다.
+		 *  접근지정자와 기타제어자를 합한말을 modifiers(한정자)<<암기안해도 읽어두기만하기!!
+		 *  
+		 *  [return 반환값;] 반환값이 없을때 생략가능함 void가 붙은거 확인!!
+		 * }
+		 * public   static  void    main(String[] args) {
+		 * }
+		 * 
+		 * 
+		 * 4-2. 메서드(함수) 3가지
+		 *   1) 기능: 프로그램 시작/종료 일(기능)을 하는 함수
+		 *   2) 매개변수: 
+		 *   3) 반환값(=리턴값)
+*/
 
 
 
