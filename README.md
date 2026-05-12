@@ -66,6 +66,8 @@ ctrl+ shift + / = 문장주석<br>
 Ctrl + F11: 컴파일 실행<br>
 trl + 7 or / : 토글 주석 처리 <br>
 Alt + Shift + J: 주석 처리<br>
+Ctrl + F: 단어 변경시(replace)<br>
+Ctrl + A 입력후 Ctrl + I = 자동 들여쓰기
 
 <img width="1218" height="754" alt="화면 캡처 2026-05-11 154129" src="https://github.com/user-attachments/assets/50ae266f-dc0f-4084-ab44-df4b62e509d1" />
 <img width="1069" height="749" alt="화면 캡처 2026-05-11 153711" src="https://github.com/user-attachments/assets/525eb158-ad7a-4561-8b63-24e0b2cadf07" />
@@ -131,11 +133,39 @@ System.out = 출력<br>
 <br>
 <br>
 // JDK = JRE + 개발도구( bin폴더: java.exe, javac.exe 등등 )<br>
-// ㄴ = JVM  + 클래스라이브러리 
+// ㄴ = JVM  + 클래스라이브러리 <br>
+<br>
+>문자열<br>
+String<br>
+한문자 출력 ''<br>
+문장열 출력 ""<br>
 
-문자열,숫자열
+>숫자열<br>
+float,double<br>
+byte, char, boolean<br>
 
-변수 및 상수
+>자료형<br>
+boolean<br>
+
+byte(127), short(32767), int(21억), logn(900경)
+<br>
+변수 및 상수(final)<br>
+- 상수사용시 대문자로 사용<br>
+- Camel 표기법불가 전체 대문자사용/두문장인경우 _로 구분<br>
+<br>
+이스케이프문자<br>
+\"  = ">>> "\ <<<" 이상태로<br>
+
+출력문<br>
+System.out.println();<br>
+System.out.print();<br>
+System.out.printf("출력형식(String타입)", 출력할값..  );<br>
+System.out.printf("이름은 \"%s %s\"입니다.",lastName,firstName);<<ex<br>
+System.out.printf("이름은 \"%s\"이고, 나이는 '%d'살이고, 학점은'%c'이고, 성별은 %b입니다.",name,age,grade,gender);<<ex<br>
+%s = 문자열<br>
+%d = 숫자열<br>
+%c = char숫자열<br>
+%b = 자료형<br>
 
 --------------------------------------------
 <20260513 수업자료>
