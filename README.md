@@ -205,6 +205,9 @@ System.out.printf("%1$s_%1$s_%1$s",name);
 [format]
 
 // 1. br 객체 생성
+
+
+
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 
 		String name;      
