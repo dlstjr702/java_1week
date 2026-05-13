@@ -59,6 +59,7 @@ bin폴더는 컴파일된 파일(class파일) 저장소<br>
 <img width="1266" height="740" alt="화면 캡처 2026-05-11 143009" src="https://github.com/user-attachments/assets/fc318e37-443b-4290-b3e7-1c69f9ba609d" />
 
 /*이클립스 단축키*/<br>
+//단축키 목록 : ctrl+shift +l
 ctrl+ space = 자동완성 명령어<br>
 ctrl+ alt+ 방향키/아래or위 = 아래/위 한줄 복사<br>
 ctrl+ / = 토글주석<br>
@@ -240,6 +241,14 @@ System.out.printf("%1$s_%1$s_%1$s",name);
 
 [타입 변환]
 <img width="721" height="411" alt="화면 캡처 2026-05-13 155102" src="https://github.com/user-attachments/assets/5bafefe5-e320-43f2-8322-5db5b06dd3f5" /><br>
+
+
+[연산자]
+- 산술연산자
+- 비교연산자
+- 논리연산자
+- 대입연산자
+- 조건연산자
 
 
 
