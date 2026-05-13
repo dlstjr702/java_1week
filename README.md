@@ -140,14 +140,18 @@ String<br>
 한문자 출력 ''<br>
 문장열 출력 ""<br>
 
->숫자열<br>
-float,double<br>
-byte, char, boolean<br>
-
->자료형<br>
-boolean<br>
-
-byte(127), short(32767), int(21억), logn(900경)
+<기본형><br>
+- 숫자형<br>
+> 정수형(byte,short,char,int,long)<br>
+> 실수형(float,double)<br>
+<br>
+- 논리형<br>
+> boolean<br>
+<br>
+<참조형><br>
+배열, 클래스(String, 열거형), 인터페이스><br>
+<br>
+byte(127), short(32767), int(21억), logn(900경)<br>
 <br>
 변수 및 상수(final)<br>
 - 상수사용시 대문자로 사용<br>
@@ -163,15 +167,83 @@ System.out.printf("출력형식(String타입)", 출력할값..  );<br>
 System.out.printf("이름은 \"%s %s\"입니다.",lastName,firstName);<<ex<br>
 System.out.printf("이름은 \"%s\"이고, 나이는 '%d'살이고, 학점은'%c'이고, 성별은 %b입니다.",name,age,grade,gender);<<ex<br>
 %s = 문자열<br>
-%d = 숫자열<br>
+%d = 숫자열<br> 10진수
+%o = 숫자열<br> 8진수
+%x = 숫자열<br> 16진수
 %c = char숫자열<br>
 %b = 자료형<br>
 %f = 실수형<br>
 
 자동형변환
+cast문법 () <<<  ex) (short)(100+30+20)
 
 --------------------------------------------
 <20260513 수업자료>
+https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/util/Formatter.html#syntax
+
+[conversion]
+%s = 문자열<br>
+%d = 숫자열<br> 10진수
+%o = 숫자열<br> 8진수
+%x = 숫자열<br> 16진수
+%c = char숫자열<br>
+%b = 자료형<br>
+<img width="614" height="257" alt="화면 캡처 2026-05-13 142553" src="https://github.com/user-attachments/assets/410bfae8-8994-4dcc-b34e-f01162421d8e" /><br>
+
+%f = 실수형<br>
+
+System.out.printf("평균 : [%10.2f]\n",avg);
+>양수를 입력하면 우측정렬 음수를 입력하면 좌측정렬 .2소수점 두번째까지출력
+
+System.out.printf("%1$s_%1$s_%1$s",name);
+>name이라는 변수 한개를 여러개 출력하는경우
+
+[flag]
+[음수,실수 표현방법]
+[지역변수]
+[format]
+
+// 1. br 객체 생성
+		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+
+		String name;      
+		int kor = 0 , eng = 0 , mat = 0;
+		int tot = 0;  
+		double avg = 0;
+
+		//이름
+		System.out.print("> 이름 입력: ");
+		name = br.readLine();
+
+		//국어
+		System.out.print("> 국어 입력: ");
+		kor = Integer.parseInt( br.readLine());
+
+		//영어
+		System.out.print("> 영어 입력: ");
+		eng = Integer.parseInt( br.readLine());
+
+		//수학
+		System.out.print("> 수학 입력: ");
+		mat = Integer.parseInt( br.readLine());
+
+		//총점 구하기
+		tot = (int)(kor+eng+mat);
+		
+		//평균구하기
+		avg = tot/3D;
+		
+		//값 전부 출력하기
+		System.out.printf("이름: %s\n국어:%d\n영어:%d\n수학:%d\n총점:%d\n평균:%f\n"
+				, name, kor, mat, eng, tot, avg);
+
+
+[타입 변환]
+<img width="721" height="411" alt="화면 캡처 2026-05-13 155102" src="https://github.com/user-attachments/assets/5bafefe5-e320-43f2-8322-5db5b06dd3f5" /><br>
+
+
+
+
 
 --------------------------------------------
 <20260514 수업자료>
