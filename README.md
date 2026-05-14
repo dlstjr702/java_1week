@@ -1,4 +1,4 @@
-# java_study
+# java_study_1week
 쌍용교육센터<br>
 이창익 선생님<br>
 
