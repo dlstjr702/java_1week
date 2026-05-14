@@ -246,12 +246,16 @@ System.out.printf("%1$s_%1$s_%1$s",name);
 <img width="721" height="411" alt="화면 캡처 2026-05-13 155102" src="https://github.com/user-attachments/assets/5bafefe5-e320-43f2-8322-5db5b06dd3f5" /><br>
 
 
-[연산자]
-- 산술연산자
-- 비교연산자
-- 논리연산자
-- 대입연산자
-- 조건연산자
+[연산자]<br>
+- 산술연산자<br>
+- 비교연산자<br>
+- 논리연산자<br>
+- 대입연산자<br>
+- 조건연산자<br>
+<br>
+[조건문]<br>
+-조건문 (if,swith)<br>
+- 반복문(for)<br>
 
 
 
