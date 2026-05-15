@@ -260,11 +260,68 @@ System.out.printf("%1$s_%1$s_%1$s",name);
 -반복문(for)<br>
 
 
-
-
-
 --------------------------------------------
 <20260514 수업자료>
+
+[조건문 테스트 및 복습]<br>
+- if, for, while 문<br>
+
+
+
+=====================================================================================
+	/*<br>
+		* 3. 이름(String), 나이(byte), 키(double), 성별(boolean) 입력받아서 출력.<br>
+		*    ( 조건: Scanner 사용하기 ) <br>
+		*    <br>
+		*    입력형식:<br>
+			*    > 이름 나이 키 성별 입력 ? 홍길동 20 178.89 true<br>
+					*    <br>
+					*    출력형식:<br>
+						*    > 이름:홍길동, 나이:20살, 키:178.89cm, 성별:남자<br>
+		*/<br>
+		<br>
+		<br>
+		String name;<br>
+		int age;<br>
+		double height;<br>
+		boolean gender;<br>
+		<br>
+		<br>
+		Scanner scanner = new Scanner(System.in);<br>
+		<br>
+		System.out.printf(">이름 나이 키 성별 입력 ?");<br>
+		name = scanner.next();//String 입력받을때는 next() nextLine()<br>
+		age = scanner.nextInt();<br>
+		height = scanner.nextDouble();<br>
+		gender=scanner.nextBoolean();<br>
+		<br>
+		<br>
+		System.out.printf("> 이름:%s, 나이:%d살, 키:%.2fcm, 성별:%s \n",name, age, height, gender?"
+
+=====================================================================================
+
+int min = n>m ? m:n;<br>
+		int max = Math.max(n, m);<br>
+		//for문안에 Math.max /Math.min 선언하지말기 로직은 맞으나 성능/속도가 늦어짐<br>
+		for (int i = min;  i<= max; i++) {<br>
+			sum += i;<br>
+			if (i < m) {<br>
+				System.out.print(i + "+");<br>
+			}else {<br>
+				System.out.print(i);<br>
+			}<br>
+		}//for<br>
+=====================================================================================
+// 람다(Labda)와 스트림(Stream)<br>
+int sum = IntStream.rangeClosed(1, 10).sum();<br>
+System.out.println(sum);<br>
+
+[반복문]
+- do while문
+
+
+
+
 
 --------------------------------------------
 <20260515 수업자료>
